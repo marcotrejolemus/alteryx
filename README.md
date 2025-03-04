@@ -1,4 +1,4 @@
-# Alteryx Desktop Installation Guide
+# Alteryx Desktop Guide
 
 This guide will walk you through the installation process of Alteryx Desktop, ensuring you have all the prerequisites in place and providing detailed instructions to help you set up the application smoothly.
 
