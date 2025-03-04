@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\sir_l\Downloads\Clientes.xlsx|||`pregnant aquamarine (Clientes)$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Clientes.xlsx
+Query=`pregnant aquamarine (Client...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="clave_cliente" source="File: C:\Users\sir_l\Downloads\Clientes.xlsx|||`pregnant aquamarine (Clientes)$`" type="Double" />
+            <Field name="descripcion_cliente" size="255" source="File: C:\Users\sir_l\Downloads\Clientes.xlsx|||`pregnant aquamarine (Clientes)$`" type="V_String" />
+            <Field name="clave_clasificacion" source="File: C:\Users\sir_l\Downloads\Clientes.xlsx|||`pregnant aquamarine (Clientes)$`" type="Double" />
+            <Field name="descripcion_clasificacion" size="255" source="File: C:\Users\sir_l\Downloads\Clientes.xlsx|||`pregnant aquamarine (Clientes)$`" type="V_String" />
+            <Field name="clave_sector" source="File: C:\Users\sir_l\Downloads\Clientes.xlsx|||`pregnant aquamarine (Clientes)$`" type="Double" />
+            <Field name="descripcion_sector" size="255" source="File: C:\Users\sir_l\Downloads\Clientes.xlsx|||`pregnant aquamarine (Clientes)$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Transaciones.xlsx
+Query=`pregnant aquamarine (Transa...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="clave_dia" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="Double" />
+            <Field name="clave_tienda" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="Double" />
+            <Field name="clave_vendedor" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="Double" />
+            <Field name="clave_cliente" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="Double" />
+            <Field name="clave_producto" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="Double" />
+            <Field name="ventas" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="Double" />
+            <Field name="costos" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="Double" />
+            <Field name="unidades" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="Double" />
+            <Field name="descuentos" size="255" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="V_String" />
+            <Field name="devoluciones" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="Double" />
+            <Field name="venta_objetivo" size="255" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="V_String" />
+            <Field name="costo_presupuesto" size="255" source="File: C:\Users\sir_l\Downloads\Transaciones.xlsx|||`pregnant aquamarine (Transacion$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="210" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"clave_cliente","descripcion_cliente","clave_clasificacion","descripcion_clasificacion","clave_sector","descripcion_sector"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="210" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"clave_dia","clave_tienda","clave_vendedor","clave_cliente","clave_producto","ventas","costos","unidades","descuentos","devoluciones","venta_objetivo","costo_presupuesto"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="354" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="clave_cliente" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="clave_cliente" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_clave_cliente" selected="True" input="Left_" />
+                <SelectField field="Left_descripcion_cliente" selected="True" input="Left_" />
+                <SelectField field="Left_clave_sector" selected="True" input="Left_" />
+                <SelectField field="Right_clave_cliente" selected="False" rename="Right_clave_cliente" input="Right_" />
+                <SelectField field="Right_ventas" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="546" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="clave_cliente" action="GroupBy" rename="clave_cliente" />
+            <SummarizeField field="ventas" action="Sum" rename="Total_Spend" />
+            <SummarizeField field="clave_cliente" action="Count" rename="Number of transactions" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="750" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="3082">
+            <Field field="Average_Spend" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Average_Spend - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings>
+        <Position x="870" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">1-10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="954" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\sir_l\Downloads\Top 10 Customers.xlsx|||Hoja1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Top 10 Customers.xlsx
+Query=Hoja1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="654" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Total_Spend]/[Number of transactions]" field="Average_Spend" size="8" type="Double" enabled="true" />
+            <FormulaField expression="Round([Average_Spend], 0.01)" field="Average_Spend" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Average_Spend = [Total_Spend]/[Number of transactions]
+Average_Spend = Round([Av...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output26" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output26" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Workflow xls Files Top 10 Customers</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="187c480b-6f05-4ea7-99b1-262f232ce36a" />
+      <Telemetry>
+        <PreviousWorkflowId value="4ff8307b-a415-4bc4-baec-5749051be3af" />
+        <OriginWorkflowId value="906607e3-c8dd-46be-84dd-d6026707f362" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
